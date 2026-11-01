@@ -22,6 +22,7 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
 ifneq ($(TARGET_DEVICE), gvwifi)
 TARGET_SPECIFIC_HEADER_PATH += $(LOCAL_PATH)/ril/include
+TARGET_SPECIFIC_HEADER_PATH += hardware/ril/include
 endif
 
 # VNDK VERSION

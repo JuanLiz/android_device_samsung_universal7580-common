@@ -237,3 +237,7 @@ $(call inherit-product, hardware/samsung_slsi/exynos7580/exynos7580.mk)
 
 # call the proprietary setup
 $(call inherit-product, vendor/samsung/universal7580-common/universal7580-common-vendor.mk)
+
+# Soong namespaces
+PRODUCT_SOONG_NAMESPACES += \
+    hardware/samsung
