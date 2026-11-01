@@ -17,7 +17,7 @@ lib/libfloatingfeature.so
 
 # Graphics
 vendor/lib/egl/libGLES_mali.so
-lib/egl/libexynosdisplay.so
+lib/libexynosdisplay.so
 lib/hw/hwcomposer.exynos5.so
 
 # protobuf
